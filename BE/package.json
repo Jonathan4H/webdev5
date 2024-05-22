@@ -1,0 +1,16 @@
+{
+  "name": "be",
+  "version": "1.0.0",
+  "description": "Rest API",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Jonathan4H",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0",
+    "uuid": "^9.0.1"
+  }
+}

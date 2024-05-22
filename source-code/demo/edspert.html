@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Starter Template Bootstrap</title>
+    <title>Edspert Details</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header class="p-3">
@@ -14,36 +15,68 @@
           <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-decoration-none">
             <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
           </a>
-          <img src="./edspert.png" alt="edspert-img"/>
+          <img src="./edspert.png" alt="edspert-img" style="margin-right: 26px;"/>
 
           <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-            <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
-            <li><a href="#" class="nav-link px-2 text-secondary">Products &nbsp;<i class="bi bi-chevron-down"></i></a></li>
-            <li><a href="#" class="nav-link px-2 text-secondary">Resources &nbsp;<i class="bi bi-chevron-down"></i></a></li>
-            <li><a href="#" class="nav-link px-2 text-secondary">Pricing</a></li>
+            <li style="margin-right: 20px;"><a href="#" class="nav-link px-2 text-secondary fw-semibold">Home</a></li>
+            <li style="margin-right: 20px;"><a href="#" class="nav-link px-2 text-secondary fw-semibold">Products &nbsp;<i class="bi bi-chevron-down"></i></a></li>
+            <li style="margin-right: 20px;"><a href="#" class="nav-link px-2 text-secondary fw-semibold">Resources &nbsp;<i class="bi bi-chevron-down"></i></a></li>
+            <li style="margin-right: 20px;"><a href="#" class="nav-link px-2 text-secondary fw-semibold">Pricing</a></li>
           </ul>
 
           <div class="text-end">
-            <button type="button" class="btn me-2">Login</button>
-            <button type="button" class="btn bg-brand-700 text-white">Sign up</button>
+            <button type="button" class="btn me-2 fw-semibold">Login</button>
+            <button type="button" class="btn bg-brand-700 fw-semibold text-white">Sign up</button>
           </div>
         </div>
       </div>
     </header>
-    <div class="px-4 py-5 my-5 text-center">
-      <img class="d-block mx-auto mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
-      <h1 class="display-5 fw-bold text-body-emphasis">Centered hero</h1>
-      <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
+    <section class="metric">
+      <div class="container d-flex mt-5">
+        <div class="mx-5">
+          <img src="programming.jpeg" width="560" height="560" style="object-fit: cover;" alt="programming">
+        </div>
+        <div class="mt-3 mx-5">
+          <p class="text-brand-500 fw-semibold">Intensive Bootcamp</p>
+          <h1 class="fw-semibold">Web Development Bootcamp</h1>
+          <div class="d-flex row">
+            <div class="col-lg-6">
+              <h1 class="text-brand-500 fw-semibold mt-5">400+</h1>
+              <p>Portofolio Siswa</p>
+            </div>
+            <div class="col-lg-6">
+              <h1 class="text-brand-500 fw-semibold mt-5">80%</h1>
+              <p>Alumni diterima kerja</p>
+            </div>
+            <div class="col-lg-6">
+              <h1 class="text-brand-500 fw-semibold mt-5">10k</h1>
+              <p>Anggota Komunitas</p>
+            </div>
+            <div class="col-lg-6">
+              <h1 class="text-brand-500 fw-semibold mt-5">2000+</h1>
+              <p>Testimoni</p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="container">
-      <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
-        <div class="col mb-3" style="width: 320px;">
+    </section>
+    <section class="team">
+      <div class="container">
+        
+      </div>
+      <div class="container">
+
+      </div>
+    </section>
+    <footer class="container">
+      <div class="d-flex mt-5">
+        <h3 class="me-auto fw-semibold">Daftar Kelas Sekarang</h3>
+        <button type="button" class="btn btn-outline-secondary btn-lg fw-semibold px-4 mx-2">Hubungi CS</button>
+        <button type="button" class="btn btn-primary btn-lg bg-brand-700 fw-semibold px-4">Daftar Sekarang</button>
+      </div>
+      <p class="text-body-secondary">Join over 10,000+ students already growing with Edspert</p>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+        <div class="col mb-3" style="width: 34%;">
           <img src="./edspert.png" alt="edspert-img"/><br><br>
           <p class="text-body-secondary">Design amazing digital experiences that create more happy in the world.</p>
         </div>
@@ -108,14 +141,21 @@
           </ul>
         </div>
         
-        <div class="col mb-3" style="width: 920px;">
+        <div class="my-5 border-top" style="width: 100%;">
           <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
             <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
           </a>
-          <p class="text-body-secondary">&copy; 2024 Edspert UI. All rights reserved.</p>
+          <div class="text-body-secondary">&copy; 2024 Edspert UI. All rights reserved.
+            <a href="#"><i class="bi bi-twitter" style="margin-left: 600px; color: lightslategray;"></i></a>
+            <a href="#"><i class="bi bi-linkedin" style="margin-left: 20px; color: lightslategray;"></i></a>
+            <a href="#"><i class="bi bi-facebook" style="margin-left: 20px; color: lightslategray;"></i></a>
+            <a href="#"><i class="bi bi-github" style="margin-left: 20px; color: lightslategray;"></i></a>
+            <a href="#"><img width="20" height="20" style="margin-left: 20px;" src="https://img.icons8.com/ios/50/737373/angelist.png" alt="angelist"/></a>
+            <a href="#"><i class="bi bi-dribbble" style="margin-left: 20px; color: lightslategray;"></i></a>
+          </div>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>

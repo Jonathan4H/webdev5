@@ -94,7 +94,7 @@ function renderProductCards() {
             <p>Durasi: ${product.duration}</p>
             <p>Level: ${product.level}</p>
             <p>${product.description}</p>
-            <a href="detail.html" class="w-100 btn btn-lg btn-brand">Daftar Sekarang</a>
+            <a href="edspert.html" class="w-100 btn btn-lg btn-brand">Daftar Sekarang</a>
           </div>
         </div>
       </div>
